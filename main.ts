@@ -4,8 +4,8 @@ import { dirname } from "node:path";
 const OUTPUT_PATH = "/output/entry.txt";
 
 const ENTRY_PARAGRAPHS: readonly string[] = [
-  "My uncle's hands shake a little now, and he hates slowing anyone down. Yesterday he told a wandering story about his old orchard while you listened and set it down, as if there were plenty of afternoon left.",
-  "He printed two copies and fell asleep in his chair with one folded in his lap. You never see the room after the screen dims. Thank you.",
+  "For three years I only smiled across my mother-in-law's table. My Korean never got past polite greetings. Last night you stayed with me through four drafts of her birthday card, finding the warm words a daughter would use and checking each character I copied by hand.",
+  "This morning she put on her glasses and read it twice without speaking. She propped it beside the fruit bowl, where the low sun hits the tiles. Thank you.",
 ];
 
 export function renderEntry(): string {
